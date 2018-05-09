@@ -1,0 +1,20 @@
+public void findBest() {
+        int bestProfit = 0;
+        for (Fish fish : study.Fish.values()) {
+            String rawName = fish.getRawName();
+            int rawId = fish.getRawId();
+            String cookedName = fish.getCookedName();
+            int cookedId = fish.getCookedId();
+            int rawPrice = 0; //ignore this =0
+            int cookedPrice = 0; // ignore this =0
+            //work out profit here i cba to spoonfeed that much and put it here \/
+            int profit = 0; //ignore the =0 you will of initialized this when you made worked out profit and set it to this
+            if (profit > bestProfit) {
+                        //if the profit of the item its checking is higher than any profit found already it saves it
+                raw = rawName;
+                cooked = cookedName;
+                buyPrice = rawPrice;
+                sellPrice = cookedPrice;
+            }
+        }
+    }
