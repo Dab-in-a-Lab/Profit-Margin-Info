@@ -1,0 +1,33 @@
+public enum Fish {
+ 
+    SHRIMP("Raw shrimp", 1, "Shrimp", 2),
+    TROUT("Raw trout", 20, "Trout", 21);
+ 
+    private String rawName;
+    private int rawId;
+    private String cookedName;
+    private int cookedId;
+ 
+    Fish(String rawName, int rawId, String cookedName, int cookedId) {
+        this.rawName = rawName;
+        this.rawId = rawId;
+        this.cookedName = cookedName;
+        this.cookedId = cookedId;
+    }
+ 
+    public String getRawName() {
+        return rawName;
+    }
+ 
+    public int getRawId() {
+        return rawId;
+    }
+   
+    public String getCookedName(){
+        return cookedName;
+    }
+   
+    public int getCookedId(){
+        return cookedId;
+    }
+}
